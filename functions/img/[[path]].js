@@ -1,5 +1,5 @@
 export async function onRequest({ env, params }) {
-  const key = params.path ? params.path.join('/') : '';
+  const key = 'img/' + (params.path ? params.path.join('/') : '');
   const object = await env.IMAGES.get(key);
 
   if (!object) return new Response('Not Found', { status: 404 });

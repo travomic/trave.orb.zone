@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite & caddy run 2>/dev/null & wait",
-    "build": "vite build",
+    "build": "vite build && rm -rf dist/img",
     "preview": "vite preview",
-    "deploy": "wrangler pages deploy dist"
+    "deploy": "wrangler pages deploy dist",
+    "deploy:prod": "wrangler pages deploy dist --branch production"
   },
   "dependencies": {
     "vue": "^3.5.32"
