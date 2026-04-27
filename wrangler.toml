@@ -1,0 +1,7 @@
+name = "trave-orb-zone"
+compatibility_date = "2025-04-18"
+pages_build_output_dir = "dist"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "trave-orb-zone-images"

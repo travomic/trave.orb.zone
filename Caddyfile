@@ -1,0 +1,9 @@
+trave.localhost {
+	log {
+		output stdout
+		format console {
+			time_format "15:04.000"
+		}
+	}
+	reverse_proxy localhost:19797
+}

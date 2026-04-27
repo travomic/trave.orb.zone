@@ -1,0 +1,22 @@
+{
+  "name": "trave-orb-zone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite & caddy run 2>/dev/null & wait",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "wrangler pages deploy dist"
+  },
+  "dependencies": {
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.32.3",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.4",
+    "vite-svg-loader": "^5.1.1",
+    "wrangler": "^4.83.0"
+  }
+}

@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Wrangler CLI cache
+.wrangler
+
+# Images served from R2 (not tracked in git)
+public/img/**
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
