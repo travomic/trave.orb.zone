@@ -5,5 +5,5 @@ trave.localhost {
 			time_format "15:04.000"
 		}
 	}
-	reverse_proxy localhost:19797
+	reverse_proxy localhost:17997
 }

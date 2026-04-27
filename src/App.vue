@@ -130,6 +130,7 @@ function toggleFullscreen() {
   cursor: pointer;
   opacity: 0.3;
   transition: opacity 0.3s;
+  display: none;
 }
 .fullscreen-btn:hover {
   opacity: 1;
